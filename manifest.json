@@ -1,7 +1,7 @@
 {
   "name": "StructureProtection-patched",
   "version_number": "1.0.0",
-  "website_url": "https://github.com/landoria-gaming/LandoriaMods/tree/main/Landoria.StructureProtection",
+  "website_url": "https://github.com/srnoob2570/Landoria-StructureProtection-patched",
   "description": "Prevents creatures from deliberately targeting structures whose creator is offline and blocks player damage to structures inside active wards.",
   "dependencies": [
     "denikson-BepInExPack_Valheim-5.4.2350"
