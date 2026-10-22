@@ -1,10 +1,27 @@
-# Structure Protection
+# Structure Protection (patched recompilation)
+
+> **This is not the original mod.** Structure Protection was created by
+> [Landoria Gaming](https://github.com/landoria-gaming/LandoriaMods). This
+> repository is an unofficial recompiled build of their release containing fixes
+> for problems in the original build. It is maintained by
+> [srnoob2570](https://github.com/srnoob2570), with AI assistance, and is not
+> affiliated with or endorsed by Landoria Gaming. Report problems with the patch
+> here; report problems with the mod itself to the original project.
 
 Prevents creatures from deliberately targeting structures whose creator is offline and blocks player damage to structures inside active wards.
 
+## About this build
+
+This is a recompilation of the original 1.0.6 release plus targeted fixes.
+
+- Fixed the leaked `Landoria_CharacterActivity` ZDO retries that filled the server log with `ZDO ... not used when creating object` warnings and grew memory over time. Root cause and verification: [FIX_PERFORMANCE.md](FIX_PERFORMANCE.md).
+- The full list of changes is in [CHANGELOG.md](CHANGELOG.md).
+
+The patch keeps the original assembly name and version, so it drops in as a replacement for the upstream DLL. Install it on the server and on every client, as described below.
+
 ## Valheim compatibility
 
-Current release: 1.0.x
+Original mod release: 1.0.x (this patch targets 1.0.6).
 
 ## Features
 
@@ -42,7 +59,7 @@ Install matching versions of Structure Protection on the server and every partic
 
 ## Contact
 
-Report bugs through [GitHub Issues](https://github.com/landoria-gaming/LandoriaMods/issues).
-For questions, feedback, and other discussions, use [GitHub Discussions](https://github.com/landoria-gaming/LandoriaMods/discussions).
+- Patch issues and questions: [this repository's issues](https://github.com/srnoob2570/Landoria-StructureProtection-patched/issues).
+- Original mod bugs and discussions: [LandoriaMods issues](https://github.com/landoria-gaming/LandoriaMods/issues) and [discussions](https://github.com/landoria-gaming/LandoriaMods/discussions).
 
 All Landoria mods are used on the [Landoria Valheim public servers](https://valheim.landoria-gaming.com/).
