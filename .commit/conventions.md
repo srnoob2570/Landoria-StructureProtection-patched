@@ -17,4 +17,5 @@
 - `manifest.json` holds the Thunderstore version. The delivery now publishes as
   `StructureProtection-patched` with its own numbering restarted at `1.0.0`,
   independent of the upstream `1.0.6` release.
-- No `.gitignore` exists; everything in the folder is intentional content.
+- `.gitignore` ignores only `dist/`, where `scripts/package.sh` writes the release
+  archive.
