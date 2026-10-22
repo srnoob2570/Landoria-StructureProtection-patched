@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Changed
+
+- Publish this patched recompilation under its own Thunderstore package, `StructureProtection-patched`, with numbering restarted at 1.0.0.
+
 ### Fixed
 
 - Stop the repeated `ZDO ... not used when creating object Landoria_CharacterActivity` log spam and the leaked inactive objects behind it.

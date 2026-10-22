@@ -14,6 +14,7 @@
 - This working copy is a delivery folder: it contains the compiled
   `Landoria.StructureProtection.dll` plus docs, not the C# sources. There is no
   build or test step to run here.
-- `manifest.json` holds the Thunderstore version; it stays at `1.0.6` for patches
-  to that release.
+- `manifest.json` holds the Thunderstore version. The delivery now publishes as
+  `StructureProtection-patched` with its own numbering restarted at `1.0.0`,
+  independent of the upstream `1.0.6` release.
 - No `.gitignore` exists; everything in the folder is intentional content.
